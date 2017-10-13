@@ -1,10 +1,17 @@
 {
-
   "manifest_version": 2,
   "name": "Youtube Profile To Videos",
   "version": "1.0",
-
   "description": "Clicking the profile icon for youtube channels will go to their /videos page instead of main profile page.",
+  
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
 
   "content_scripts": [
     {
