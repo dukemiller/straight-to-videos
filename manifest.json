@@ -13,11 +13,9 @@
     "scripts": ["background.js"]
   },
 
-  "content_scripts": [
-    {
-      "matches": ["*://*.youtube.com/watch?*"],
-      "js": ["ytp.js"]
-    }
-  ]
+  "content_scripts": [{
+    "matches": ["*://*.youtube.com/*"],
+    "js": ["content-script.js"]
+  }]
 
 }
