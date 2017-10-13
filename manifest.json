@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Youtube Profile To Videos",
+  "name": "Straight To Videos",
   "version": "1.0",
-  "description": "Clicking the profile icon for youtube channels will go to their /videos page instead of main profile page.",
+  "description": "Instead of going to a YouTube profile when clicking their username, go straight to their /videos page instead.",
   
   "permissions": [
     "activeTab",
