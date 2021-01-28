@@ -8,6 +8,8 @@ addToHref = (node) => {
 // Stop any SPA event handlers and instead, go to the intended page
 changeOnClick = (node) => {
     node.addEventListener("click", e => {
+        if (e.ctrlKey)
+            return;
         e.cancelBubble = true;
         e.preventDefault();
         e.stopPropagation();
