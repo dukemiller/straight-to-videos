@@ -1,4 +1,4 @@
-const VIDEO_CONTAINER = "div#owner.item.style-scope.ytd-watch-metadata"
+const VIDEO_CONTAINER = "ytd-video-owner-renderer"
 const VIDEO_METADATA = "YTD-WATCH-FLEXY"
 const VIDEO_ID_ATTR = "video-id"
 const WAIT_DELAY = 1000
